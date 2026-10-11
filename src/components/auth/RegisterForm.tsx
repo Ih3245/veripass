@@ -78,10 +78,6 @@ export const RegisterForm: React.FC<RegisterFormProps> = ({
     <div className="w-full max-w-lg bg-white border border-slate-200/90 rounded-2xl shadow-xl p-6 sm:p-8 transition-all">
       {/* Header */}
       <div className="mb-6">
-        <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-3">
-          <UserPlus className="w-3.5 h-3.5" />
-          User Provisioning Portal
-        </div>
         <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
           Create user account
         </h1>

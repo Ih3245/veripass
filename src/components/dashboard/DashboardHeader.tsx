@@ -62,12 +62,6 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = ({
 
           {/* Right Action Icons & User Profile */}
           <div className="flex items-center gap-3">
-            {/* Operational status badge */}
-            <div className="hidden sm:flex items-center gap-2 px-2.5 py-1 rounded-full bg-emerald-50 border border-emerald-200/80 text-emerald-800 text-xs font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Real-Time Engine Active</span>
-            </div>
-
             {/* Notification bell */}
             <button
               type="button"

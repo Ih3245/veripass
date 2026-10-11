@@ -93,10 +93,6 @@ export const LoginForm: React.FC<LoginFormProps> = ({
     <div className="w-full max-w-lg bg-white border border-slate-200/90 rounded-2xl shadow-xl p-6 sm:p-8 transition-all">
       {/* Brand Header */}
       <div className="mb-6">
-        <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-semibold uppercase tracking-wider mb-3">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          Enterprise Live Authentication
-        </div>
         <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
           Welcome back
         </h1>
